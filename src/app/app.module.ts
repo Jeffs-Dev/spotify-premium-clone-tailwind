@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { InitialBannerComponent } from './components/initial-banner/initial-banner.component';
+import { WhyGoPremiumComponent } from './components/why-go-premium/why-go-premium.component';
+import { PickYourPremiumComponent } from './components/pick-your-premium/pick-your-premium.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    InitialBannerComponent
+    InitialBannerComponent,
+    WhyGoPremiumComponent,
+    PickYourPremiumComponent
   ],
   imports: [
     BrowserModule,
