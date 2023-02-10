@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { InitialBannerComponent } from './components/initial-banner/initial-banner.component';
 import { WhyGoPremiumComponent } from './components/why-go-premium/why-go-premium.component';
 import { PickYourPremiumComponent } from './components/pick-your-premium/pick-your-premium.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PickYourPremiumComponent } from './components/pick-your-premium/pick-yo
     HeaderComponent,
     InitialBannerComponent,
     WhyGoPremiumComponent,
-    PickYourPremiumComponent
+    PickYourPremiumComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
