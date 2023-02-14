@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .header-container{
+    @apply max-w-7xl mx-auto my-0;
+  }
+  
+  .header{
+    @apply p-4 flex justify-between items-center text-white;
+  }
+
+  .header-img{
+    @apply w-32 inline-block max-md:w-24;
+  }
+
+  .links{
+    @apply flex gap-8 text-sm font-bold;
+  }
+
+  .link{
+    @apply hover:text-green-400 transition-all duration-200;
+  }
+
+
+
+}
